@@ -1,0 +1,355 @@
+
+
+h1 {
+  font-family: 'Homemade Apple', cursive;
+  font-size: 70px;
+  letter-spacing: 3px;
+  padding-left: 30px;
+
+
+
+}
+h4 {
+ font-family: 'Meddon', cursive;
+  font-size: 100px;
+  letter-spacing: 3px;
+  padding-left: 30px;
+  color: #F0F8FF;
+
+}
+body {
+ 
+ 
+  font-size: 15px;
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+  color: #3B3A3A;
+  background-color: white;
+  max-width: 70vw;
+  overflow-x: hidden;
+  text-align: left;
+   display: grid;
+   padding-left: 4em;
+}
+
+
+img {
+  max-width:110%;
+  height: auto;
+  position: center;
+  padding-left: 1em;
+  padding-top: 2em;
+}
+
+h6{
+    color: white;
+
+
+}
+header {
+
+  min-height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+
+}
+ 
+
+
+
+main {
+  position: relative;
+  margin-top: 90vh;
+  max-width: 70em;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+video {
+  padding-right: 75px;
+  padding-left: 75px;
+  padding-bottom: 75px;
+  align-content: center;
+}
+
+
+section {
+  padding: 0.5em;
+  margin: 3em auto;
+}
+h3 {
+  padding-top: 30px;
+  padding-left: 100px;
+  padding-right: 30px;
+}
+
+footer {
+  padding: 1em 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #001a00;
+  box-shadow: 0 50vh 0 50vh #001a00;
+  color:white;
+  background-size: auto;
+}
+
+footer a img {
+ 
+  
+}
+
+
+/* Typography */
+
+a {
+  color: inherit;
+}
+
+a:hover {
+
+}
+
+
+
+h2 {
+  font-family: 'Lora', serif;
+  color: #001a00;
+  font-size: 4em;
+  font-weight: 400;
+  align-items: flex-end;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding-top: 100px;
+ 
+}
+
+
+h3 {
+  font-family: 'Lora', serif;
+  color: #001a00;
+  font-size: 4em;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  text-align: center;
+}
+
+
+
+a {
+ color: #778899;
+ display:absolute;
+ font-size: 30px;
+ justify-content: center;
+ padding-top: 50px;
+ padding-right: 30px;
+ padding-bottom: 50px;
+ padding-left: 80px;
+
+}
+
+blockquote {
+  font-size: 1em;
+  font-weight: 80;
+  font-style: italic;
+  text-align: center;
+}
+
+.text-right {
+  text-align: center;
+}
+
+
+
+/* Navigation */
+
+nav {
+  border-bottom: 1px solid;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  color: #000000;
+  
+
+}
+
+
+nav a {
+  text-decoration: none;
+  padding: 1em 2em;
+  display: inline-block;
+  color: #000000;
+  
+  font-weight: bold;
+}
+
+
+
+
+
+/* 2 Column grid (for About) */
+
+.grid-3-columns {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-gap: 0.5em;
+}
+
+@media (min-width: 40em) {
+
+  .grid-2-columns {
+    grid-template-columns: 50% 50%;
+  }
+
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+
+#showcase {
+  background-image: url(fimg/LP2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+
+}
+
+/* Landing page */
+
+.welcome {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 1fr;
+  text-align: center;
+  align-content: center;
+}
+
+.welcome h4 {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  justify-content: inherit;
+}
+
+.welcome a {
+  display: inline;
+  text-align: center;
+  background-color: white;
+  margin:  0 auto;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 25px;
+}
+
+
+
+video {
+  max-height: 60em;
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0 auto;
+  max-width: 110%;
+}
+
+
+
+ .image
+{
+    background:url(imgimg/feb24_03.jpg);
+    height:100px;
+    width:100px;
+    display: block;
+    float:left;
+}
+
+.image  a {
+    display: none;
+}
+
+.image  a:hover {
+    display: block;
+}
+
+#myVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.video video, .overlay img {
+   width:100%;
+  height:auto;
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  object-fit:cover;
+  object-position: center center;
+
+
+
+} 
+
+.overlay img {
+  z-index:1;
+}
+
+#logo  {
+  width: 1000%;
+  height: auto;
+  position: center;
+  padding-top: 7em; 
+  min-width: 100px;
+  object-position: center center;
+   object-fit:cover;
+   
+}
+@media screen and (max-width: 481px){
+   min-width: 480px;
+ }
+
+
+  @viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+
