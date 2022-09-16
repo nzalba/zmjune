@@ -1,0 +1,35 @@
+@import url('satoshi.css');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    line-height: 10px;
+}
+
+.credits {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Satoshi-Regular';
+    width: 350px;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: right;
+}
