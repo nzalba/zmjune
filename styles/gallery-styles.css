@@ -264,6 +264,10 @@ footer {
     width: 100%;
 }
 
+.info img {
+    width: 1.5em;
+}
+
 .contact-bottom {
     display: flex;
     justify-content: space-between;
