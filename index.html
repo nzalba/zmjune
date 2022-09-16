@@ -1,306 +1,92 @@
-<!-- ZM IMAGERY-->
 <!DOCTYPE html>
-
+<html lang="en">
 <head>
-
-	<title>ZM IMAGERY</title>
-
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-	<link href="Style/style.css" rel="stylesheet">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap" rel="stylesheet">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Meddon&display=swap" rel="stylesheet">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles\styles.css" rel="stylesheet" type="text/css">
+    <title>ZM IMAGERY</title>
 </head>
-
 <body>
-
-
-
-	<!-- NAVIGATION -->
-	<div class="mobile-nav-toggle">
-		<span></span>
-		<span></span>
-		<span></span>
-	</div>
-	
-	<nav>
-		<a href="index.html#about">About</a>
-		<a href="index.html#photography">Photography</a>
-		<a href="#design.html#Design">Design</a>
-		<a href="drone.html">Aerial</a>
-		<a href="#contact.html#Contact">Contact</a>
-	</nav>
-	<script>
-		document.querySelector('.mobile-nav-toggle')
-		.addEventListener('click', () => {
-			document.body.classList.toggle('nav-active')
-		})
-		let a = document.querySelectorAll('nav a')
-		for (let i = 0; i < a.length; i++) {
-			a[i].addEventListener('click', () => {
-				if (document.body.classList.contains('nav-active')) {
-					document.body.classList.remove('nav-active')
-				}
-			})
-		}
-	</script>
-
-
-	<!-- HEADER BANNER -->
-	<header>
-
-		<div class="overlay">
-			<img src="Header/Logo.png" alt="ZM IMAGERY" id="logo">
-		</div>
-
-		<div class="video">
-			<video autoplay muted loop>
-				<source src="Header/hvid.mp4" type="video/mp4">
-			</video>
-		</div>
-
-	</header>
-
-	<main>
-
-		<!-- ABOUT -->
-		<section id="about">
-
-			<div class="grid-3-columns">
-
-				<div class="column text-right">
-					<h1>hello</h1>
-
-					<p>Welcome to my Portfolio! My name is Nicole Zalba.</p>
-
-					<p>I am a freelance image maker currently residing in Quinte West, Ontario.</p>
-
-					<p>My passion for image making and capturing special moments began at an early age and I have since
-						acquired a Bachelor of
-						Fine Arts in Photography and have complimented that, with an Advanced Certificate in Graphic
-						Design.
-						I am an adventure enthusiast, and nature influences my work.</p>
-
-						<p>I designed this website and added some of my favourite images for you to enjoy.</p>
-
-						<p>For questions and inquiries, feel free to contact me via phone at 647.453.8501 or email at
-						nicole.zalba@gmail.com</p> 
-						
-						<p>To see more of my work, check out my Instagram or Facebook Page</p>
-
-					<a href="https://www.instagram.com/zmimagery/"><button type="button">Instagram</button></a>
-					<a href="https://www.facebook.com/zmimagery/"><button type="button">Facebook</button></a>
-					<br><br>
-				</div>
-
-				<div class="column">
-					<img src="Pimage/1.jpg" </div>
-
-
-
-
-				</div>
-
-				<blockquote>
-					&ldquo;Everything you can imagine is real&rdquo;
-					<br>
-					&mdash;Pablo Picasso
-				</blockquote>
-
-		</section>
-
-
-		<!-- PORTFOLIO -->
-
-
-		<section id="photography">
-			<h2>food | still life</h2>
-			<img src="SLimage/1.jpg" alt="food6">
-			<p> Pieces, Still Life</p>
-			<img src="SLimage/2.jpg" alt="food5">
-			<p> Aria</p>
-			<img src="SLimage/3.jpg" alt="food5">
-			<p> Tea Time, Still Life</p>
-			<img src="SLimage/4.jpg" alt="food4" title="tea" />
-			<p> Strawberry Breeze</p>
-			<img src="SLimage/5.jpg" alt="food3">
-			<p> Raspberry Cheesecake</p>
-			<img src="SLimage/6.jpg" alt="food2">
-			<p> oranG-Jay</p>
-			<img src="SLimage/7.jpg" alt="food1">
-			<p> Timeless</p>
-			<img src="SLimage/8.jpg" alt="food1">
-			<p> Feeling Fresh</p>
-			<img src="SLimage/9.jpg" alt="food1">
-			<p> Memoir</p>
-			<img src="SLimage/10.jpg" alt="food1">
-
-
-
-			</div>
-
-
-			<div class="photo-grid">
-				<h2>portraiture</h2>
-
-				<img src="Pimage/2.jpg" alt="food5">
-				<img src="Pimage/3.jpg" alt="food5">
-
-				<img src="Pimage/4.jpg" alt="food5">
-
-
-				<img src="Pimage/9.jpg" alt="portrait01" class="wide">
-
-				<img src="Pimage/5.jpg" alt="portrait03">
-
-				<img src="Pimage/7.jpg" alt="food">
-
-				<img src="Pimage/8.jpg" alt="portrait04">
-
-				<img src="Pimage/10.jpg" alt="portrait04">
-				<img src="Pimage/11.jpg" alt="portrait04">
-				<img src="Pimage/12.jpg" alt="portrait04">
-
-
-
-
-
-			</div>
-
-			<div class="photo-grid">
-				<h2>weddings</h2>
-				<img src="Wimages/1.jpg" alt="food" class="wide">
-				<img src="Wimages/2.jpg" alt="food" class="wide">
-				<img src="Wimages/3.jpg" alt="food" class="wide">
-				<img src="Wimages/4.jpg" alt="wedding">
-
-				=
-				<img src="Wimages/5.jpg" alt="wedding">
-				<img src="Wimages/6.jpg" alt="wedding01">
-				<img src="Wimages/8.jpg" alt="wedding">
-				<img src="Wimages/9.jpg" alt="wedding">
-				<img src="Wimages/10.jpg" alt="wedding">
-				<img src="Wimages/11.jpg" alt="wedding">
-				<img src="Wimages/12.jpg" alt="wedding">
-				<img src="Wimages/13.jpg" alt="wedding">
-				<img src="Wimages/14.jpg" alt="wedding">
-
-
-			</div>
-
-			<div class="photo-grid">
-				<h2>product</h2>
-				<img src="Proimage/1.jpg" alt="food" class="wide">
-				<img src="Proimage/2.jpg" alt="wedding">
-				<img src="Proimage/3.jpg" alt="wedding">
-				<img src="Proimage/4.jpg" alt="wedding">
-				<img src="Proimage/6.jpg" alt="wedding">
-				<img src="Proimage/7.jpg" alt="food5">
-				<img src="Proimage/8.jpg" alt="food5">
-				<img src="Proimage/9.jpg" alt="food5">
-				<img src="Proimage/10.jpg" alt="food5">
-
-
-
-
-
-
-
-
-
-
-
-
-
-				<div class="photo-grid">
-					<h2>travel</h2>
-					<img src="Timages/1.jpg" alt="ad" class="wide">
-					<p> Drone Imagery </p>
-
-					<img src="Timages/2.jpg" alt="food">
-					<p> Betulia, Honduras</p>
-
-					<img src="Timages/3.jpg" alt="food">
-					<p> Honduras</p>
-
-					<img src="Timages/4.jpg" alt="food">
-					<p> Honduras</p>
-
-
-					<img src="Timages/5.jpg" alt="food">
-					<p> Copan,Honduras</p>
-
-					<img src="Timages/6.jpg" alt="food">
-					<p> Utila, Honduras</p>
-
-					<img src="Timages/7.jpg" alt="food">
-					<p> Pan de Coco | Tela, Honduras</p>
-
-
-					<img src="Timages/9.jpg" alt="food">
-					<p> British Columbia, Canada</p>
-
-					<img src="Timages/10.jpg" alt="food">
-					<p> Emily Lake, Ontario</p>
-
-					<img src="Timages/11.jpg" alt="food">
-					<p> Dog Portrait, Algonquin Park</p>
-
-					<img src="Timages/12.jpg" alt="food">
-					<p> Copan, Honduras</p>
-
-					<img src="Timages/13.jpg" alt="food">
-					<p> Copan, Honduras</p>
-
-					<img src="Timages/14.jpg" alt="food">
-					<p> Algonquin Park, Ontario</p>
-
-
-
-
-
-
-
-
-
-
-
-
-				<!-- FOOTER -->
-				<footer>
-
-
-					<a href="https://www.instagram.com/zmimagery/">
-						<button type="button">Instagram</button>
-					</a>
-					<a href="https://www.facebook.com/zmimagery/">
-						<button type="button">Facebook</button>
-					</a>
-
-					</a>
-				
-
-					<p>&copy; ZM IMAGERY
-						<script>document.write(new Date().getFullYear())</script>
-						</p>
-
-
-				</footer>
-
-	</main>
-
-
-
+    <nav>
+        <div id="menuToggle">
+            <input type="checkbox"/>
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul id="menu">
+                <li><a href="aerial.html">AERIAL</a></li>
+                <li><a href="food.html">FOOD // STILL LIFE</a></li>
+                <li><a href="portraiture.html">PORTRAITURE</a></li>
+                <li><a href="weddings.html">WEDDINGS</a></li>
+                <li><a href="product.html">PRODUCT</a></li>
+                <li><a href="travel.html">TRAVEL</a></li>
+                <li><a href="design.html">DESIGN</a></li>
+            </ul>
+        </div>
+
+        <a class="logo" href="index.html"><img src="images/logo.png" alt=""></a>
+    </nav>
+
+    <div class="welcome-container" style="background-image: url(images/welcome.jpg);">
+        <svg width="1554px" height="560px" viewBox="-4 0 1550 560" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <defs>
+                <path id="brush" stroke-width="48" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" d="M21.921875,425.09375 C68.4921875,389.507812 191.054688,331.773438 306.259011,239.483986 C507.880741,64.4809623 331.570313,-146.0625 272.179688,239.483986 C189.036034,619.534081 212.378414,526.9375 212.378414,526.9375 C212.378414,526.9375 250.484375,307.101562 364.75,307.101562 C410.53125,307.101562 345.8125,526.9375 402.09375,526.9375 C468.313458,528.723075 569.716298,477.229557 610.707038,364.023218 C615.629518,350.428539 611.728487,361.067451 611.728487,361.067451 C617.785297,338.69287 609.166339,307.497631 595.125,296.410156 C595.125,296.410156 603.893774,301.251351 595.125,296.410156 C514.363919,251.822378 423.176537,423.517129 513.953125,502.320312 C622.695313,585.320312 751.789063,477.9375 759.835938,458.648437 C854.851563,346.445312 878.317681,243.584995 889.746094,204.855469 C942.019531,27.7070312 776.944044,11.1328549 742.257813,182.914062 C691.34375,435.0625 774.71875,519.578125 846.234375,519.578125 C934.585938,519.578125 1073.36381,458.813568 1137.32031,182.914062 C1163.13281,71.5625 990.9375,2.1875 967.71875,279.59772 C956.794362,410.118822 993.544239,519.578125 1043.60938,519.578125 C1173.07031,519.578125 1206.28906,307.101562 1342.82813,320.625 C1160.19531,356.632812 1137.32031,528.9375 1283.78906,528.9375 C1385.95312,528.9375 1415.99609,295.125 1313.83594,304.289062 C1211.67578,313.453125 1362.80943,350.244421 1416.00391,334.273438 C1439.01953,327.363281 1472.25391,324.898438 1519.33984,289.191406"/>
+            </defs>
+            <g class="hand">
+                <use class="hello" xlink:href="#brush"/>
+            </g>
+        </svg>
+    </div>
+
+    <div class="bio-container">
+        <div class="bio">
+            <div class="bio-text">
+                <h1>Welcome to my Portfolio! My name is Nicole Zalba.</h1>
+                <p>I am a freelance image maker currently residing in Quinte West, Ontario. My passion for image making and capturing special moments began at an early age and I have since acquired a Bachelor of Fine Arts in Photography and have complimented that with an Advanced Certificate in Graphic Design. I am an adventure enthusiast, and nature influences my work.
+                I designed this website and added some of my favourite images for you to enjoy.
+                <br><br>
+                For questions and inquiries, feel free to contact me via phone at 647.453.8501 or email at nicole.zalba@gmail.com</p>
+            </div>
+            <blockquote>“Everything you can imagine is real” <br> &mdash;Pablo Picasso</blockquote>
+        </div>
+    </div>
+
+    <div class="main-gallery">
+        <img src="images/aerial/1.jpg">
+        <img src="images/food-still-life/3.jpg">
+        <img src="images/portraiture/10.jpg">
+        <img src="images/product/1.jpg">
+        <img src="images/travel/1.jpg">
+        <img src="images/weddings/8.jpg">
+        <img src="images/aerial/3.jpg">
+        <img src="images/food-still-life/9.jpg">
+        <img src="images/portraiture/3.jpg">
+        <img src="images/product/3.jpg">
+        <img src="images/travel/2.jpg">
+        <img src="images/weddings/13.jpg">
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="contact-top">
+                <h1>LET'S CONNECT!</h1>
+            </div>
+            <div class="contact-middle">
+                <p>All content creation big or small is unique. Please email, text, phone, or DM us on social media to create a special quote that fits your needs and budget.</p>
+                <div class="info">
+                    <p>647.453.8501 <br> <a href="mailto: nicole.zalba@gmail.com">nicole.zalba@gmail.com</a></p>
+                    <div>
+                        <a href="https://www.instagram.com/zmimagery/"><img src="images/instagram.svg" alt=""></a>
+                        <a href="https://www.facebook.com/zmimagery/"><img src="images/facebook.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-bottom">
+                <a href="credits.html">credits</a>
+                <p>&copy; ZM IMAGERY <script>document.write(new Date().getFullYear())</script></p>
+            </div>
+        </div>
+    </footer>
 </body>
+</html>
