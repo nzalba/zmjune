@@ -115,7 +115,7 @@ nav a:hover {
 
 #menu li {
     font-size: 5vw;
-    line-height: 12vh;
+    line-height: 11vh;
     margin-left: 90px;
 }
 
@@ -288,7 +288,7 @@ footer {
 
     #menu li {
         font-size: 10vw;
-        line-height: 12vh;
+        line-height: 11vh;
         margin-left: 90px;
     }
 }
